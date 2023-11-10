@@ -12,11 +12,11 @@ Below script will Install all fonts copied inside Fonts directory to a target de
 
 PowerShell Script for Font Installation on Windows Devices
 
-.Script Author
+.AUTHOR
 
 Prajwal Desai
 
-.DateCreated
+.DATE CREATED
 
 15-November-2023
 
