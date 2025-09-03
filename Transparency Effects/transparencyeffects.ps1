@@ -1,5 +1,15 @@
-# PowerShell Script to Enable or Disable Transparency Effects in Windows 11
-# By Prajwal Desai
+<#
+.SYNOPSIS
+PowerShell Script to Enable or Disable Transparency Effects in Windows 11
+
+.DESCRIPTION 
+This script modifies the registry key responsible for transparency settings and refreshes the user interface to apply changes.
+
+.NOTES
+Author: Prajwal Desai
+Website: https://www.prajwaldesai.com
+Post Link: https://www.prajwaldesai.com/enable-disable-transparency-effects-in-windows-11
+#>
 
 
 param (
@@ -27,4 +37,5 @@ try {
     rundll32.exe user32.dll, UpdatePerUserSystemParameters
 } catch {
     Write-Host "An error occurred while modifying Transparency Effects settings: $_" -ForegroundColor Red
+
 }
